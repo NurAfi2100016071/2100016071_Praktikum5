@@ -1,0 +1,11 @@
+// Import library testing
+const { calculateTotalPrice } = require('./calculateTotalPrice');
+
+test('should calculate the total price of items', () => {
+  const items = [{ price: 10 }, { price: 20 }, { price: 30 }];
+  
+  const result = calculateTotalPrice(items);
+  
+  // Mengecek apakah hasil yang diberikan sesuai
+  expect(result).toBe(60);
+});
