@@ -1,0 +1,8 @@
+// Express.js Route untuk mendapatkan data barang
+app.get('/api/items', (req, res) => {
+  const items = [
+    { name: 'Item 1', price: 50 },
+    { name: 'Item 2', price: 100 },
+  ];
+  res.status(200).json(items);
+});
