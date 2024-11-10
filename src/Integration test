@@ -1,0 +1,11 @@
+function getItemsFromDatabase() {
+  // Fungsi ini mengambil data dari database (misalnya berupa array)
+  return [
+    { name: 'Item 1', price: 10 },
+    { name: 'Item 2', price: 20 },
+  ];
+}
+
+function calculateTotal(items) {
+  return items.reduce((total, item) => total + item.price, 0);
+}
