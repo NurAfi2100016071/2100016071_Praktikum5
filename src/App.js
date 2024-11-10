@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import SignUp from "./components/SignUp";
 import FileUpload from "./components/FileUpload";
 //import ImageGallery from "./components/ImageGallery";
-
+//Nur Afi Ardiansyah
 
 function App() {
   return (
